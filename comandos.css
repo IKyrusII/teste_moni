@@ -1,0 +1,199 @@
+body {
+    background: #f4f4f9;
+}
+
+.container {
+    border-radius: 50px;
+
+}
+#menu {
+    width: 100%;
+    background: #ccc;
+    border: 2px solid #999;
+    box-shadow: 2px 2px 2px #666;
+    font-family: sans-serif;
+    text-indent: 0;
+    font-weight: bold;
+    
+}
+
+#menu h2 {
+    background: rgb(51, 153, 90) ;
+    box-shadow: 5px -7px 10px rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 5px 10px;
+}
+
+#menu h3{
+    background: #131f13;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: large;
+    color: #fff;
+}
+#menu h2 a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+#menu ul {
+    padding: 0;
+}
+
+#menu ul li {
+    border-bottom: 1px dotted #000;
+    list-style: none;
+    margin: 0;
+    padding: 5px 10px;
+    text-indent: 0;
+}
+
+#menu ul li a {
+    color: #369;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    color: #ff0;
+}
+
+
+#lote {
+    margin:1%;
+}
+
+label {
+    font-size: 100%;
+    padding-left: 5%;
+    padding-top: 3% !important;
+}
+
+#labelconfig{
+    padding-top: 0%;
+    padding-bottom: 2%; 
+}
+#numcont{
+    padding: 2%;
+}
+
+#contagem_praga{
+    margin:1%;
+    
+}
+
+table{
+    
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+#refcon{
+    width: 10%;
+    padding-left: 100px !important;
+}
+.inputconf{
+    width:45%;
+    font-size: 100%;
+    padding-left: 2%;
+    border-radius: 1%;
+    box-shadow: 5px -7px 10px rgba(0,0,0,0.1);
+}
+
+td{
+    margin-left: 80%;
+}
+
+.red {
+    background: #f66;
+}
+
+#exercicios li {
+    list-style: circle;
+    text-indent: 10px;
+    margin-left: 20px;
+}
+
+#enviar{
+    background:#ccc ;
+}
+#btenviar {
+    width: 40%;
+    padding: 3%;
+    margin: 4.5%;
+    border-width: 5px;
+    font-size: 140%;
+    color:#ffffff;
+    border-color: rgb(51, 153, 87);
+    background: rgb(42, 167, 73);
+    
+}
+
+.accordion {
+   background-color: #ccc;
+   color: #ffffff;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   text-align: left;
+   border: 8px;
+   outline: none;
+   transition: 0.4s;
+}
+
+.accordion h2 {
+    width: 96%;
+    border-radius: 10px;
+    background-color: rgb(51, 153, 90) !important;
+}
+
+  
+  /* Adicione uma cor de fundo ao botão se ele receber clique (adicione a classe .active com JS) e quando você passar o mouse sobre ele (hover) */
+.active, .accordion:hover {
+  background-color: #eee;
+}
+  
+  /* Estilize o painel accordion. Nota: oculto por padrão */
+.painel {
+  padding: 0 18px;
+  background: #ffffff;
+  display: none;
+  overflow: hidden;
+    
+}
+  
+.accordion:after {
+  content: '\02795'; /* Unicode (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+  
+.active:after {
+  content: "\2796"; /* Unicode (-) */
+}
+
+#div_observacao {
+    padding: 3%;
+}
+
+#observacao {
+    width: 99%;
+    font-size: 100%;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
